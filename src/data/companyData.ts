@@ -158,7 +158,11 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://tolt.link/remote-poslovi",
     category: "Remote Poslovi",
     featured: true,
+<<<<<<< HEAD
     image: "/images/business_plan_canva_deck_1785478495425.jpg"
+=======
+    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   },
   {
     id: "atoms-dev",
@@ -174,7 +178,11 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://atoms.dev/?utm_source=affiliate&via=pretvori-ideju-u-realnost",
     category: "IT & Veb Dizajn",
     featured: true,
+<<<<<<< HEAD
     image: "/images/bh_papirfinder_mockup_1786292775889.jpg"
+=======
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   },
   {
     id: "alison-global",
@@ -191,7 +199,11 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "Online Edukacija",
     featured: true,
+<<<<<<< HEAD
     image: "/images/alison_official_logo_1785476385694.jpg"
+=======
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800"
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   },
   {
     id: "it-skills-boost",
@@ -207,7 +219,11 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "IT & Veb Dizajn",
     featured: false,
+<<<<<<< HEAD
     image: "/images/tryhackme_cybersecurity_1786295930296.jpg"
+=======
+    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   },
   {
     id: "business-languages",
@@ -223,6 +239,10 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "Jezici & Poslovanje",
     featured: false,
+<<<<<<< HEAD
     image: "/images/business_plan_canva_deck_1785478495425.jpg"
+=======
+    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800"
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   }
 ];

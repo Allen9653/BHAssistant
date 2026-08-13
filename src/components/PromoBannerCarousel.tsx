@@ -157,7 +157,11 @@ export const PromoBannerCarousel: React.FC<PromoBannerCarouselProps> = ({
       tagColor: 'bg-[#00E5BE] text-[#0A1628]',
       accentBg: 'from-[#0F2038] via-[#112847] to-[#0A1628]',
       icon: Sparkles,
+<<<<<<< HEAD
       bannerImage: '/images/zentaxi_app_1786292819027.jpg'
+=======
+      bannerImage: '/images/zentaxi_hero_art_1785477201889.jpg'
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
     },
     {
       id: 'gummi-bojanka',
@@ -174,7 +178,11 @@ export const PromoBannerCarousel: React.FC<PromoBannerCarouselProps> = ({
       tagColor: 'bg-[#C9A84C] text-[#0A1628]',
       accentBg: 'from-[#1A3152] via-[#112847] to-[#0F2038]',
       icon: Download,
+<<<<<<< HEAD
       bannerImage: '/images/gummi_cover.jpg'
+=======
+      bannerImage: '/images/gummi_bojanka_cover_1785477292211.jpg'
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
     },
     {
       id: 'stecak-vector',
@@ -191,7 +199,11 @@ export const PromoBannerCarousel: React.FC<PromoBannerCarouselProps> = ({
       tagColor: 'bg-[#00C9A7] text-[#0A1628]',
       accentBg: 'from-[#0F2038] via-[#1A3152] to-[#0A1628]',
       icon: ImageIcon,
+<<<<<<< HEAD
       bannerImage: '/images/ornamenti_bosne.jpg'
+=======
+      bannerImage: '/images/bh_stecak_digital_art_1785477341852.jpg'
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
     },
     {
       id: 'remote-career',

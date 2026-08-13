@@ -36,8 +36,13 @@ export function handleImageError(e: React.SyntheticEvent<HTMLImageElement, Event
   if (fallbackUrl) {
     target.src = fallbackUrl;
   } else {
+<<<<<<< HEAD
     // Authentic fallback to official logo
     target.src = '/images/bh_assistant_logo.jpg';
+=======
+    // High reliability unsplash dark tech editorial fallback
+    target.src = 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80';
+>>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   }
 }
 
