@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-syne: 'Syne', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-navy: #0A1628;
+  --color-navy-card: #0F2038;
+  --color-navy-border: #1A3152;
+  --color-teal: #00C9A7;
+  --color-cream: #F5F0E8;
+  --color-gold: #C9A84C;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Stećak Animated Motif Styles */
+@keyframes stecakPulse {
+  0%, 100% {
+    opacity: 0.25;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(1.03) rotate(0.5deg);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes glowShift {
+  0%, 100% {
+    filter: drop-shadow(0 0 15px rgba(0, 201, 167, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(201, 168, 76, 0.4));
+  }
+}
+
+.animate-stecak-pulse {
+  animation: stecakPulse 8s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-glow-shift {
+  animation: glowShift 5s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A1628;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A3152;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00C9A7;
+}
