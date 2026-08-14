@@ -36,13 +36,8 @@ export function handleImageError(e: React.SyntheticEvent<HTMLImageElement, Event
   if (fallbackUrl) {
     target.src = fallbackUrl;
   } else {
-<<<<<<< HEAD
     // Authentic fallback to official logo
     target.src = '/images/bh_assistant_logo.jpg';
-=======
-    // High reliability unsplash dark tech editorial fallback
-    target.src = 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80';
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
   }
 }
 
@@ -56,7 +51,7 @@ export const INITIAL_NEWS: NewsArticle[] = [
     author: "B&H Assistant Redakcija",
     excerpt: "Novi fantastičan uspjeh za B&H Assistant d.o.o. Zenica! Naš autorski softverski alat BH KONVER izglasan je za Aplikaciju Sedmice, pri čemu tim Lovable u potpunosti preuzima i finansira izradu nativnih iOS i Android aplikacija.",
     content: "Zadovoljstvo nam je objaviti izuzetne vijesti za našu firmu B&H Assistant d.o.o. Zenica i sve korisnike naših digitalnih alata!\n\nBH KONVER je zvanično izglasan za Aplikaciju Sedmice! Kao rezultat ove pobjede i prepoznavanja kvaliteta našeg softvera, renomirana platforma i tim Lovable osiguraće kompletan razvoj i finansiranje zvaničnih mobilnih aplikacija za iOS (Apple App Store) i Android (Google Play Store) uređaje.\n\nOvo partnerstvo će omogućiti da BH KONVER postane još pristupačniji građanima u BiH i dijaspori, nudeći brz i siguran rad pri generisanju pravnih izjava i proračuna direktno na pametnim telefonima.\n\nZahvaljujemo se svim korisnicima na podršci i glasovima!",
-    imageUrl: "/images/bravo_winner_bh_konver_1786548030796.jpg",
+    imageUrl: "/images/bravo_winner.jpg",
     published: true,
     tags: ["BH Konver", "Aplikacija Sedmice", "Lovable", "iOS", "Android", "B&H Assistant"]
   },
@@ -69,7 +64,7 @@ export const INITIAL_NEWS: NewsArticle[] = [
     author: "B&H Assistant Redakcija",
     excerpt: "BH KONVER, aplikacija koju razvija B&H Assistant d.o.o., proglašena je pobjednikom prvog Bravo takmičenja! Priznanje da naš rad na digitalnim alatima ima međunarodni odjek.",
     content: "BH KONVER, aplikacija koju razvija B&H Assistant d.o.o., proglašena je pobjednikom prvog Bravo takmičenja.\n\nOvo priznanje je dokaz da naš rad na digitalnim alatima, prilagođenim socio-ekonomskom i kulturnom kontekstu BiH, ima međunarodni odjek.\n\nBravo nam je omogućio da pokažemo snagu domaćih ideja i da ih pretvorimo u globalno relevantne aplikacije.\n\n👉 Saznajte više o BH KONVER i našim projektima na www.bh-assistant.ba",
-    imageUrl: "/images/bravo_winner_bh_konver_1786548030796.jpg",
+    imageUrl: "/images/bravo_winner.jpg",
     published: true,
     tags: ["BH Konver", "Bravo Winner", "Priznanje", "B&H Assistant", "Nagrađena Aplikacija"]
   },
@@ -82,24 +77,33 @@ export const INITIAL_NEWS: NewsArticle[] = [
     author: "B&H Assistant Redakcija",
     excerpt: "TryHackMe je platforma za obuku iz sajber sigurnosti bazirana na pretraživaču, sa edukativnim sadržajem koji pokriva sve nivoe znanja — od potpunih početnika do prekaljenih hakera.",
     content: "TryHackMe je platforma za obuku iz sajber sigurnosti bazirana na pretraživaču, sa edukativnim sadržajem koji pokriva sve nivoe znanja — od potpunih početnika do prekaljenih hakera.\n\nNaši suosnivači, Ben Spring i Ashu Savani, pokrenuli su TryHackMe nakon što su shvatili koliko je ova industrija nepristupačna. Učenje sajber sigurnosti je ranije podrazumijevalo pristup „crne kutije“ uz nedostatak vodiča i izazova, zbog čega je industrija bila nevjerovatno teška za ulazak, a onima koji su već bili na tržištu rada bilo je teško da stalno usavršavaju svoja znanja. Tu mi stupamo na scenu!\n\nInovativni pristup\nPrije TryHackMe-a, učenje sajber sigurnosti imalo je teorijski pristup koji se nije mogao primijeniti u praksi u scenarijima iz stvarnog svijeta. Polaznicima je ostavljalo mnogo praznina koje su morali sami popunjavati, a pristup nije bio privlačan niti interaktivan.\n\nKorisnicima dajemo sopstvenu ličnu virtuelnu mašinu — koja se pokreće jednim klikom na dugme. Ovo omogućava polaznicima da aktivno hakerišu i brane mašine u praksi, prateći korake koje će preduzimati u scenarijima iz stvarnog svijeta i radnim ulogama. Donosimo immerzivnu obuku, prilagođenu potrebama tržišta i lakše usvojivu kroz učenje u praksi. Istražite na : https://tryhackme.com/",
-    imageUrl: "/images/tryhackme_cybersecurity_1786295930296.jpg",
+    imageUrl: "/images/tryhackme_banner.jpg",
     published: true,
     tags: ["TryHackMe", "Sajber Sigurnost", "IT Obuka", "Hakeri", "Edukacija"]
   },
   {
-    id: "news-1",
-    title: "Predstavljanje BH KONVER alata i zakup zvanične domene www.bh-konver.ba",
-    slug: "bh-konver-predstavljanje-domena",
-    category: "BH KONVER & IT",
-    date: "30. Juli 2026.",
-    author: "B&H Assistant Redakcija",
-    excerpt: "Objavljen zvanični prezentacijski video BH KONVER alata (BH.KONVER.VIDEO.pokaz.mp4)! U toku je završno usklađivanje prijevoda za njemački, engleski, turski i ćirilicu te priprema za prelazak na primarnu domenu www.bh-konver.ba.",
-    content: "Zadovoljstvo nam je najaviti intenzivne završne pripreme za zvanično lansiranje BH KONVER platforme na novoj domeni www.bh-konver.ba.\n\nKroz originalni prezentacijski video snimak (BH.KONVER.VIDEO.pokaz.mp4) korisnici se mogu direktno upoznati sa funkcionalnostima generisanja ovjerenih pravnih izjava pod kaznenom i materijalnom odgovornošću, kalkulacijama jedinica te brzom izvozu u PDF formate.\n\nTrenutno naš tim u saradnji sa razvojnim okruženjem privodi kraju kompletiranje višejezičnog prijevoda na svim podstranicama (engleski, njemački, turski i ćirilica), čime će BH KONVER postati dostupan široj zajednici u BiH i dijaspori.\n\nPogledajte zvanični prezentacijski video snimak klikom na dugme u nastavku članka!",
-    imageUrl: "/images/bh_konver_mockup_1786292760938.jpg",
+    id: "news-job-media-buyer",
+    title: "Oglas za posao: Media Buyer (Europe – Remote | $2.5k - $3.5k / mjesečno)",
+    slug: "oglas-za-posao-media-buyer-remote",
+    category: "Posao & Karijera",
+    date: "Prije 2 sata 🔥",
+    author: "B&H Assistant Karijere",
+    excerpt: "Planiraj, pokreni i skaliraj plaćene kampanje za generisanje leadova na Meta platformama, Google Ads, TikTok i nativnim mrežama (Taboola, Outbrain). Cloaking i Keitaro tracker ekspertiza ($2.5k - $3.5k/mj).",
+    content: "OGLAS ZA POSAO: MEDIA BUYER\n\n📌 Osnovne informacije:\n• 🔥 Objavljeno: Prije 2 sata (Job not on LinkedIn)\n• 🇪🇺 Lokacija: Europe – Remote (Rad od kuće)\n• 💵 Plata: $2,500 – $3,500 / mjesečno ($2.5k - $3.5k / month)\n• ⏰ Radno vrijeme: Full Time (Puno radno vrijeme)\n• 🟡 Nivo iskustva: Mid-level / 🟠 Senior\n• 🎡 Industrija: Marketing & Lead Generation\n• 🔗 Link za prijavu: https://tolt.link/posaoodkuce\n\nOpis posla i ključne odgovornosti:\n1. Planiraj, pokreni i skaliraj plaćene kampanje za generisanje leadova na Meta platformama (Facebook/Instagram), Google Ads Search, TikTok, kao i na nativnim mrežama poput Taboola i Outbrain.\n2. Izgradi i upravljaj kompletnim sistemom za praćenje i cloaking – od oglasnog računa, preko trackera, landing stranice, CRM‑a, pa sve do povratnog signala sa platforme.\n3. Implementiraj napredne cloaking tehnike i upravljaj konfiguracijama Keitaro trackera ili ekvivalentnog rješenja, uključujući landere, rutiranje kampanja, makroe, distribuciju saobraćaja, filtere i postback signale.\n\n👉 Prijavite se direktno putem linka: https://tolt.link/posaoodkuce",
+    imageUrl: "/images/tryhackme_banner.jpg",
+    externalUrl: "https://tolt.link/posaoodkuce",
+    isJobPosting: true,
+    jobDetails: {
+      salary: "$2.5k - $3.5k / month",
+      location: "Europe – Remote",
+      type: "Full Time",
+      level: "Mid-level / Senior",
+      department: "Marketing",
+      source: "Job not on LinkedIn",
+      postedAgo: "2 hours ago"
+    },
     published: true,
-    tags: ["BH Konver", "B&H Assistant", "Novi Alati", "Video Prezentacija", "e-Uprava"],
-    hasVideo: true,
-    videoFileName: "BH.KONVER.VIDEO.pokaz.mp4"
+    tags: ["Media Buyer", "Remote Posao", "Marketing", "Meta Ads", "Google Ads", "Keitaro", "Taboola", "TikTok", "Lead Gen"]
   },
   {
     id: "news-2",
@@ -115,17 +119,17 @@ export const INITIAL_NEWS: NewsArticle[] = [
     tags: ["SCENA+", "Kultura", "Print", "Zenica"]
   },
   {
-    id: "news-3",
-    title: "Projekat ZENTAXI: Povezivanje vozača i putnika uz savremenu mobilnu aplikaciju",
-    slug: "zentaxi-lokalni-gradski-prevoz",
-    category: "ZENTAXI",
-    date: "18. Juli 2026.",
-    author: "Razvojni Tim ZENTAXI",
-    excerpt: "ZENTAXI ulazi u novu fazu testiranja i širenja partnerstva sa taksi udruženjima i vozačima u Zenici i okolnim gradovima.",
-    content: "ZENTAXI predstavlja odgovor na potrebe savremenog gradskog prevoza u Bosni i Hercegovini. Aplikacija omogućava brzu lokaciju najbližeg slobodnog taksi vozila, procjenu cijene vožnje prije polaska te direktnu komunikaciju sa vozačem.\n\nPozivamo sve taksi prijevoznike i samostalne poduzetnike da se pridruže mreži i iskoriste pogodnosti digitalne platforme B&H Assistant d.o.o.",
-    imageUrl: "/images/zentaxi_app_1786292819027.jpg",
+    id: "news-ornaments-of-bosnia-video",
+    title: "ORNAMENTI BOSNE: Objavljena video prezentacija — Jedini digitalni proizvod sa dostavom na USB sticku!",
+    slug: "ornamenti-bosne-video-prezentacija-usb-dostava",
+    category: "Dizajn & Kulturna Baština",
+    date: "14. August 2026.",
+    author: "Kreativni Odjel B&H Assistant",
+    excerpt: "Objavljena je zvanična video prezentacija kolekcije 'ORNAMENTI BOSNE' (https://youtu.be/CyJx3h3nGyA). Ovo je jedini digitalni proizvod koji se dostavlja direktno na Vašu adresu na USB Memory Sticku uz sigurno plaćanje po preuzimanju (pouzećem).",
+    content: "B&H Assistant d.o.o. Zenica s ponosom predstavlja zvaničnu video prezentaciju autorskog digitalnog projekta 'ORNAMENTI BOSNE'.\n\nOva jedinstvena kolekcija donosi digitalizovane i kodirane motive sa srednjovjekovnih bosanskih stećaka (SVG, PNG, HTML i CSS). Posebnost ovog proizvoda jeste što je to JEDINI digitalni proizvod koji se dostavlja direktno na Vašu kućnu ili poslovnu adresu na USB Memory Sticku, uz sigurno plaćanje tek po preuzimanju pošiljke (pouzećem).\n\nPogledajte zvanični video na YouTube-u:\n• Zvanična prezentacija (Bosanski): https://youtu.be/CyJx3h3nGyA\n• Engleski digitalni katalog 🇬🇧: https://youtu.be/VXc7aCa-Auc\n\nPrelistajte i kompletan digitalni e-katalog putem Canva platforme!",
+    imageUrl: "/images/ornamenti_bosne.jpg",
     published: true,
-    tags: ["ZENTAXI", "Transport", "App", "Zenica"]
+    tags: ["ORNAMENTI BOSNE", "USB Dostava", "Plaćanje Pouzećem", "Stećci", "Kulturna Baština", "Video Prezentacija", "YouTube"]
   }
 ];
 
@@ -136,37 +140,29 @@ export const getStoredNews = (): NewsArticle[] => {
     const data = localStorage.getItem(STORAGE_KEY);
     if (data) {
       const parsed: NewsArticle[] = JSON.parse(data);
-      // Filter out news-4 Gummi article from stored news if present
-      const filteredParsed = parsed.filter(a => a.id !== 'news-4' && !a.title.toLowerCase().includes('gummi učenje je zabava'));
+      // Remove outdated duplicated articles and keep clean list
+      const filteredParsed = parsed.filter(a => 
+        a.id !== 'news-4' && 
+        a.id !== 'news-1' &&
+        a.id !== 'news-3' &&
+        !a.title.toLowerCase().includes('gummi učenje je zabava')
+      );
       const parsedIds = new Set(filteredParsed.map(a => a.id));
       const missingInitial = INITIAL_NEWS.filter(a => !parsedIds.has(a.id));
       const combined = [...missingInitial, ...filteredParsed];
 
-      return combined.map(art => {
+      // Match with INITIAL_NEWS for newest copy
+      return combined.slice(0, 6).map(art => {
         const initialMatch = INITIAL_NEWS.find(i => i.id === art.id);
-        const defaultImage = initialMatch?.imageUrl || '/images/scena_print_cover_exact_1785477127597.jpg';
-        
-        let img = art.imageUrl;
-        if (!img || img.length < 5 || img.includes('undefined') || img.includes('null')) {
-          img = defaultImage;
-        }
-
-        if (art.id === 'news-1') {
-          const news1Match = INITIAL_NEWS.find(i => i.id === 'news-1');
+        if (initialMatch) {
           return {
-            ...art,
-            title: "Predstavljanje BH KONVER alata i zakup zvanične domene www.bh-konver.ba",
-            author: "B&H Assistant Redakcija",
-            hasVideo: true,
-            videoFileName: "BH.KONVER.VIDEO.pokaz.mp4",
-            imageUrl: normalizeImageUrl(img),
-            excerpt: art.excerpt && art.excerpt.includes("BH.KONVER.VIDEO.pokaz.mp4") ? art.excerpt : (news1Match?.excerpt || art.excerpt),
-            content: art.content && art.content.includes("BH.KONVER.VIDEO.pokaz.mp4") ? art.content : (news1Match?.content || art.content)
+            ...initialMatch,
+            imageUrl: normalizeImageUrl(initialMatch.imageUrl)
           };
         }
         return {
           ...art,
-          imageUrl: normalizeImageUrl(img)
+          imageUrl: normalizeImageUrl(art.imageUrl)
         };
       });
     }

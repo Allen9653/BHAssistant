@@ -1,4 +1,4 @@
-import { DigitalTool, DevelopmentProject, MagazineEdition, AffiliateCourse, CompanyDetails } from '../types';
+import { DigitalTool, DevelopmentProject, MagazineEdition, AffiliateCourse, CompanyDetails, SocialPost } from '../types';
 
 export const COMPANY_INFO: CompanyDetails = {
   name: "B&H Assistant d.o.o.",
@@ -20,49 +20,65 @@ export const DIGITAL_TOOLS: DigitalTool[] = [
   {
     id: "bh-konver",
     name: "BH Konverter (Konver)",
-    tagline: "Univerzalni BH digitalni kalkulator i konverter",
-    description: "Brzi i precizni bosanskohercegovački digitalni konverter valuta, mjernih jedinica i poslovnih dokumentarnih proračuna. Razvijen s fokusom na specifične potrebe građana i firmi u BiH radi uštede vremena i eliminacije grešaka u svakodnevnom poslovanju.",
+    tagline: "Univerzalni BH digitalni kalkulator i pravni generator",
+    description: "Autorsko softversko rješenje za brze i precizne proračune poreza, valuta, građevinskih i mjernih jedinica, te automatizovano generisanje pravno važećih izjava pod punom krivičnom i materijalnom odgovornošću. U toku je izrada nativnih iOS i Android mobilnih aplikacija uz podršku platforme Lovable.",
     url: "https://bh-konver.lovable.app/",
-    badge: "PRVI BH ALAT",
-    category: "Finansije & Konverzija",
+    badge: "POBJEDNIK SEDMICE & NATIVNI APP 🏆",
+    category: "Finansije & e-Pravni Alati",
     iconName: "Calculator",
-    image: "/images/bh_konver_mockup_1786292760938.jpg",
+    image: "/images/bh_konver_mockup.jpg",
+    deliveryBadge: "LOVABLE APP OF THE WEEK POBJEDNIK",
+    deliveryNotice: "Nagrađeni softverski alat — tim Lovable gradi i finansira nativne iOS (App Store) i Android (Play Store) mobilne aplikacije za građane i dijasporu.",
     features: [
-      "Prilagođeno zakonodavstvu i valutama u BiH",
-      "Brze konverzije jedinica i poreza",
-      "Jednostavan i responzivan interfejs"
+      "Generisanje ovjerenih pravnih izjava pod krivičnom odgovornošću 📜",
+      "Nativne iOS & Android mobilne aplikacije (Lovable partnerstvo) 📱",
+      "Kalkulatori valuta, poreza i mjernih jedinica usklađeni sa zakonima BiH 🇧🇦",
+      "Brz izvoz dokumenata u PDF format spreman za printanje i potpis",
+      "Primarna zvanična domena u pripremi: www.bh-konver.ba"
     ]
   },
   {
     id: "bh-papirfinder",
     name: "BH PapirFinder",
-    tagline: "Digitalni vodič za besplatne općinske obrasce",
-    description: "Vaš centralni digitalni vodič za pronalaženje besplatnih obrazaca, zahtjeva i dokumenata lokalne samouprave u Bosni i Hercegovini. Pojednostavljuje administrativne procese za općine Olovo, Gračanica, Banja Luka, Jajce, Travnik i druge krajeve BiH.",
+    tagline: "Centralni registar i vodič za besplatne općinske obrasce",
+    description: "Vaš centralni digitalni registar i pametni vodič za pronalaženje besplatnih obrazaca, zahtjeva i dokumenata lokalne samouprave u Bosni i Hercegovini. Pojednostavljuje i ubrzava administrativne procese za općine Olovo, Gračanica, Banja Luka, Jajce, Travnik i sve kantone u BiH.",
     url: "https://bhpapirfinder.atoms.world/",
-    badge: "e-UPRAVA VODIČ",
-    category: "Administracija & e-Uprava",
+    badge: "BESPLATNI OBRASCI & e-UPRAVA 🏛️",
+    category: "Administracija & Javne Usluge",
     iconName: "FileText",
-    image: "/images/bh_papirfinder_mockup_1786292775889.jpg",
+    image: "/images/bh_papirfinder_mockup.jpg",
+    deliveryBadge: "BESPLATNI OPĆINSKI OBRASCI & VODIČ",
+    deliveryNotice: "Direktan pristup i preuzimanje službenih općinskih zahtjeva, taksi i obrazaca — ušteda vremena građanima, privredi i dijaspori.",
     features: [
-      "Baza besplatnih općinskih obrazaca",
-      "Pretraga po općinama i kantonima",
-      "Direktno preuzimanje dokumenata"
+      "Baza besplatnih službenih općinskih obrazaca i upravnih zahtjeva 📄",
+      "Pametna pretraga po gradovima (Olovo, Gračanica, BL, Travnik, Jajce...)",
+      "Pojednostavljeni e-Uprava koraci za fizička i pravna lica",
+      "Direktno preuzimanje pripremljenih dokumenata i uputstava",
+      "Eliminacija čekanja na šalterima i administrativnih nejasnoća"
     ]
   },
   {
     id: "ornamenti-bosne",
     name: "Ornamenti Bosne: Digitalna Kolekcija",
-    tagline: "Kodirane strukture stećaka u SVG, PNG, HTML i CSS",
-    description: "Prva digitalna kolekcija autentičnih i stiliziranih motiva sa bh. stećaka pripremljena za dizajn, edukaciju i kulturnu reinterpretaciju. Sadrži kodirane vektorske i veb strukture za kreatore i istraživače bh. baštine (I. Izdanje 2026).",
+    tagline: "Jedini digitalni proizvod sa dostavom na USB Memory Sticku • Plaćanje po preuzimanju",
+    description: "Prva digitalna kolekcija autentičnih i stiliziranih motiva sa bh. stećaka pripremljena za dizajn, edukaciju i kulturnu reinterpretaciju. Sadrži kodirane vektorske i veb strukture (SVG, PNG, HTML i CSS). JEDINI digitalni proizvod koji se dostavlja na Vašu fizičku adresu na USB Memory Sticku uz sigurno plaćanje po preuzimanju (pouzećem).",
     url: "https://canva.link/8dwxeack5cwn18l",
-    badge: "KULTURNA BAŠTINA & TECH",
+    videoUrl: "https://youtu.be/CyJx3h3nGyA",
+    videoEmbedUrl: "https://www.youtube.com/embed/CyJx3h3nGyA?rel=0&modestbranding=1",
+    englishVideoUrl: "https://youtu.be/VXc7aCa-Auc",
+    englishVideoEmbedUrl: "https://www.youtube.com/embed/VXc7aCa-Auc?rel=0&modestbranding=1",
+    deliveryBadge: "DOSTAVA NA USB MEMORY STICKU",
+    deliveryNotice: "Jedini digitalni proizvod koji se dostavlja na Vašu kućnu ili poslovnu adresu na USB Memory Sticku, uz sigurno plaćanje po preuzimanju pošiljke (pouzećem).",
+    badge: "KULTURNA BAŠTINA & USB DOSTAVA",
     category: "Dizajn & Kulturna Baština",
     iconName: "Compass",
-    image: "/images/ornamenti_bosne_1786292789196.jpg",
+    image: "/images/ornamenti_bosne.jpg",
     features: [
-      "Vektorski motiv sa stećaka (SVG, PNG)",
-      "HTML i CSS stilizirani kodovi",
-      "Spremno za grafičke i web projekte"
+      "Dostava na adresu na USB Memory Sticku 📦",
+      "Plaćanje sigurno po preuzimanju pošiljke (pouzećem)",
+      "Vektorski motivi sa stećaka (SVG, PNG format)",
+      "HTML i CSS stilizirani kodovi za veb programere",
+      "Zvanična video prezentacija & Engleski e-katalog 🇬🇧"
     ]
   }
 ];
@@ -112,15 +128,37 @@ export const DEVELOPMENT_PROJECTS: DevelopmentProject[] = [
     id: "zentaxi",
     title: "ZENTAXI",
     subtitle: "Spajamo vožnju, stvaramo udobnost",
-    description: "Inovativna digitalna platforma za lokalni gradski i međugradski prijevoz kreirana od strane B&H Assistant Zenica. Povezuje putnike i licencirane vozače uz maksimalnu transparentnost, brzu narudžbu i vrhunsku udobnost.",
+    description: "Inovativna digitalna platforma za lokalni gradski i međugradski prijevoz kreirana od strane B&H Assistant d.o.o. Zenica. Povezuje putnike i licencirane vozače uz maksimalnu transparentnost, brzu narudžbu, automatski proračun optimalnih ruta, digitalnu fiskalizaciju i vrhunsku udobnost vožnje.",
+    detailedSummary: "ZENTAXI je pametna dispečerska mreža i mobilna aplikacija razvijena da transformiše urbani taksi prevoz u Zenici i gradovima BiH. Projekat rješava ključne izazove lokalnog transporta: eliminiše čekanje na slobodna vozila, pruža unaprijed poznatu cijenu prije početka vožnje, omogućava GPS praćenje u realnom vremenu te nudi transparentan partnerski model za samostalne taksiste i registrovana taksi udruženja bez visokih posredničkih provizija.",
     url: "https://canva.link/xyqzerrxvkxbfy2",
     status: "U fazi razvoja & Širenja mreže",
-    image: "/images/zentaxi_app_1786292819027.jpg",
+    image: "/images/zentaxi_logo.jpg",
+    videoUrl: "https://youtu.be/oJNF1YU1XVQ",
+    videoEmbedUrl: "https://www.youtube.com/embed/oJNF1YU1XVQ?rel=0&modestbranding=1",
     targetAudience: "Investitori, Taksisti, Gradovi & Korisnici",
     highlights: [
-      "Pametna lokacija i procjena vožnje",
-      "Sigurna digitalna plaćanja i ocjenjivanje",
-      "Lokalizovano rješenje za BH tržište"
+      "Pametna lokacija i procjena vožnje u realnom vremenu",
+      "Sigurna digitalna plaćanja, fiskalizacija i ocjenjivanje",
+      "Lokalizovano i pristupačno rješenje za BH tržište",
+      "Partnerski model za licencirane taksi prevoznike"
+    ],
+    features: [
+      {
+        title: "Dispečerski Algoritam",
+        desc: "Automatsko uparivanje putnika sa najbližim slobodnim taksi vozilom uz minimalno vrijeme odziva."
+      },
+      {
+        title: "Transparentne Cijene",
+        desc: "Jasan proračun cijene vožnje unaprijed prema zvaničnom gradskom cjenovniku, bez skrivenih troškova."
+      },
+      {
+        title: "Sigurnost & Nadzor",
+        desc: "Verifikovani vozači, digitalni računi, ocjene korisnika i 24/7 SOS podrška tokom vožnje."
+      },
+      {
+        title: "Lokalna Integracija",
+        desc: "Potpuno prilagođeno zakonodavstvu ZDK i FBiH uz podršku za lokalne platne kartice i gotovinu."
+      }
     ]
   },
   {
@@ -130,7 +168,9 @@ export const DEVELOPMENT_PROJECTS: DevelopmentProject[] = [
     description: "Originalni bh. edukativni projekat za najmlađe. Kroz lik voljenog junaka Gummija i njegove avanture, djeca na zabavan i metodički prilagođen način uče štampana i pisana slova uz igru, smijeh i druženje.",
     url: "https://canva.link/vens28es43srfdw",
     status: "Razvoj & Produkcija",
-    image: "/images/gummi_bojanka_1786292834962.jpg",
+    image: "/images/gummi_bojanka.jpg",
+    videoUrl: "https://youtu.be/SxWVktly_vA",
+    videoEmbedUrl: "https://www.youtube.com/embed/SxWVktly_vA?rel=0&modestbranding=1",
     hasFreeDownload: true,
     downloadUrl: "https://canva.link/tna306bm8p462xm",
     downloadTitle: "Edukativna Bojanka GUMMI",
@@ -158,11 +198,7 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://tolt.link/remote-poslovi",
     category: "Remote Poslovi",
     featured: true,
-<<<<<<< HEAD
-    image: "/images/business_plan_canva_deck_1785478495425.jpg"
-=======
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800"
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
+    image: "/images/business_plan.jpg"
   },
   {
     id: "atoms-dev",
@@ -178,11 +214,7 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://atoms.dev/?utm_source=affiliate&via=pretvori-ideju-u-realnost",
     category: "IT & Veb Dizajn",
     featured: true,
-<<<<<<< HEAD
-    image: "/images/bh_papirfinder_mockup_1786292775889.jpg"
-=======
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800"
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
+    image: "/images/bh_papirfinder_mockup.jpg"
   },
   {
     id: "alison-global",
@@ -199,11 +231,7 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "Online Edukacija",
     featured: true,
-<<<<<<< HEAD
-    image: "/images/alison_official_logo_1785476385694.jpg"
-=======
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800"
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
+    image: "/images/alison_logo.jpg"
   },
   {
     id: "it-skills-boost",
@@ -219,11 +247,7 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "IT & Veb Dizajn",
     featured: false,
-<<<<<<< HEAD
-    image: "/images/tryhackme_cybersecurity_1786295930296.jpg"
-=======
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
+    image: "/images/tryhackme_banner.jpg"
   },
   {
     id: "business-languages",
@@ -239,10 +263,164 @@ export const AFFILIATE_COURSES: AffiliateCourse[] = [
     affiliateUrl: "https://alison.com/certificate-courses?utm_source=alison_user&utm_medium=affiliate&utm_campaign=56404529",
     category: "Jezici & Poslovanje",
     featured: false,
-<<<<<<< HEAD
-    image: "/images/business_plan_canva_deck_1785478495425.jpg"
-=======
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800"
->>>>>>> d8880c05fc5af7ce712764f19c61c4332df661d3
+    image: "/images/business_plan.jpg"
+  },
+  {
+    id: "gurushots-yusufowych",
+    title: "GuruShots Yusufowych Fotografija",
+    provider: "GuruShots Global Photo Platform & Exhibitions",
+    badge: "FOTOGRAFIJA & UMJETNOST",
+    description: "Pogledajte ekskluzivni portfolio i autorske fotografije bh. autora Yusufowych na globalnoj platformi GuruShots. Učešće u svjetskim fotografskim izazovima i međunarodnim digitalnim izložbama.",
+    bullets: [
+      "Autorska umjetnička i pejsažna fotografija",
+      "Međunarodna takmičenja i globalne izložbe",
+      "Direktan pristup zvaničnoj GuruShots galeriji"
+    ],
+    affiliateUrl: "https://gurushots.com/yusufowych",
+    category: "Fotografija & Umjetnost",
+    featured: false,
+    image: "/images/digitalni_spavac_bh_assistant.png"
   }
 ];
+
+export const SOCIAL_POSTS: SocialPost[] = [
+  {
+    id: "post-scena-1",
+    image: "/images/scena_cover.jpg",
+    caption: "Naslovnica I. izdanja magazina SCENA+! ✨ Istražujemo novu energiju Zenice i ZDK, od underground umjetnosti i vinila Danila Kese do digitalnih inovacija mladih. Čitajte potpuno besplatno na Canva linku! 📖🇧🇦",
+    category: "scena",
+    categoryLabel: "Magazin SCENA+",
+    likes: 142,
+    initialLiked: false,
+    commentsCount: 18,
+    date: "Prije 2 dana",
+    postUrl: "https://www.instagram.com/bh.asst",
+    location: "Zenica, Bosna i Hercegovina",
+    tags: ["#SCENAPlus", "#ZenicaKultura", "#UrbaniMagazin", "#ZDK", "#BHAssistant"],
+    comments: [
+      {
+        id: "c1",
+        author: "zenica_creatives",
+        text: "Sjajan format i odličan izbor tema za prvo izdanje! Svaka čast ekipi.",
+        timeAgo: "1 dan"
+      },
+      {
+        id: "c2",
+        author: "haris_dev_ba",
+        text: "Konačno magazin koji spaja kulturu i IT u našem kantonu! 👏",
+        timeAgo: "18 sati"
+      }
+    ]
+  },
+  {
+    id: "post-konver-2",
+    image: "/images/bh_konver_mockup.jpg",
+    caption: "Predstavljamo BH Konverter (Konver) ⚡ Vaš novi omiljeni alat za brze poslovne i devizne kalkulacije, prilagođen zakonima i valutama u BiH. Bez registracije, 100% besplatno i munjevito brzo. Isprobajte na bh-konver.lovable.app 💻🚀",
+    category: "alati",
+    categoryLabel: "BH Digitalni Alati",
+    likes: 215,
+    initialLiked: true,
+    commentsCount: 29,
+    date: "Prije 4 dana",
+    postUrl: "https://www.instagram.com/bh.asst",
+    location: "B&H Assistant Hub • Zenica",
+    tags: ["#BHKonver", "#BHTech", "#DigitalniAlati", "#FinansijeBiH", "#StartupZenica"],
+    comments: [
+      {
+        id: "c3",
+        author: "mirza_finansije",
+        text: "Ovo nam je nedostajalo za brze kalkulacije PDV-a i valuta u praksi.",
+        timeAgo: "3 dana"
+      }
+    ]
+  },
+  {
+    id: "post-bojanka-3",
+    image: "/images/gummi_bojanka.jpg",
+    caption: "🎨 Besplatna GUMMI Bojanka za najmlađe! Preuzmite PDF izdanje u 8 uzbudljivih ilustracija sa temom automobila, sigurnosti u saobraćaju i druženja. Razvijajte kreativnost svoje djece uz B&H Assistant tim! 🖍️🚙",
+    category: "projekti",
+    categoryLabel: "Projekti & Djeca",
+    likes: 184,
+    initialLiked: false,
+    commentsCount: 24,
+    date: "Prije 6 dana",
+    postUrl: "https://www.instagram.com/bh.asst",
+    location: "Zenica • ZEDP",
+    tags: ["#GUMMIBojanka", "#DjecaBiH", "#Kreativnost", "#BesplatnoPreuzimanje"],
+    comments: [
+      {
+        id: "c4",
+        author: "leila_mami_blog",
+        text: "Isprintali smo za vikend, djeca su oduševljena likom Gummia! ❤️",
+        timeAgo: "5 dana"
+      }
+    ]
+  },
+  {
+    id: "post-ornamenti-4",
+    image: "/images/ornamenti_bosne.jpg",
+    caption: "Monumentalna baština srednjovjekovne Bosne u digitalnom kodu 🏛️✨ Digitalna kolekcija 'Ornamenti Bosne' donosi vektorske simbole stećaka za moderne dizajnere, veb projekte i edukaciju. Spoj tradicije i cyber tehnologije.",
+    category: "stecak",
+    categoryLabel: "Kultura & Stećci",
+    likes: 268,
+    initialLiked: true,
+    commentsCount: 35,
+    date: "Prije 1 sedmicu",
+    postUrl: "https://www.instagram.com/bh.asst",
+    location: "Radimlja & Zgošća • BiH",
+    tags: ["#OrnamentiBosne", "#Stećak", "#KulturnaBaština", "#WebDesign", "#BiHHistory"],
+    comments: [
+      {
+        id: "c5",
+        author: "tarik_arch",
+        text: "Fantastična inicijativa za očuvanje vizuelnog identiteta Bosne!",
+        timeAgo: "6 dana"
+      }
+    ]
+  },
+  {
+    id: "post-gurushots-5",
+    image: "/images/digitalni_spavac_bh_assistant.png",
+    caption: "Spavač iz kamena budi se u digitalnom dobu 🌌 Yusufowych fotografija na globalnoj GuruShots platformi. Ponosno predstavljamo bh. motive i konceptualnu umjetnost na svjetskim izložbama fotografije. 📸🌐",
+    category: "stecak",
+    categoryLabel: "Fotografija & Umjetnost",
+    likes: 197,
+    initialLiked: false,
+    commentsCount: 16,
+    date: "Prije 10 dana",
+    postUrl: "https://gurushots.com/yusufowych",
+    location: "GuruShots Global Exhibition",
+    tags: ["#GuruShots", "#Yusufowych", "#DigitalArt", "#BosnianArt", "#Photography"],
+    comments: [
+      {
+        id: "c6",
+        author: "photo_enthusiast_eu",
+        text: "Stunning composition and atmosphere! 🌟",
+        timeAgo: "8 dana"
+      }
+    ]
+  },
+  {
+    id: "post-papirfinder-6",
+    image: "/images/bh_papirfinder_mockup.jpg",
+    caption: "Trebate općinski obrazac za Olovo, Gračanicu, Banja Luku ili Travnik? 📄🔍 BH PapirFinder štedi vaše vrijeme i novac — pronađite i preuzmite zvanične obrasce lokalne samouprave bez čekanja u redovima!",
+    category: "alati",
+    categoryLabel: "BH Digitalni Alati",
+    likes: 156,
+    initialLiked: false,
+    commentsCount: 12,
+    date: "Prije 2 sedmice",
+    postUrl: "https://www.instagram.com/bh.asst",
+    location: "Bosna i Hercegovina",
+    tags: ["#PapirFinder", "#eUprava", "#LokalnaSamouprava", "#BiHServisi"],
+    comments: [
+      {
+        id: "c7",
+        author: "dzenan_bih",
+        text: "Korisno i pregledno, posebno za ljude u dijaspori kojima trebaju formulari.",
+        timeAgo: "12 dana"
+      }
+    ]
+  }
+];
+
