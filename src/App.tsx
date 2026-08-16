@@ -1,5 +1,6 @@
 import React, { useState, Suspense, lazy } from 'react';
 import { motion } from 'motion/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { COMPANY_INFO } from './data/companyData';
 import { CompanyDetails } from './types';
 import { Navbar } from './components/Navbar';
@@ -186,6 +187,9 @@ export default function App() {
 
       {/* Floating Back to Top Button */}
       <BackToTop />
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
 
     </div>
   );
